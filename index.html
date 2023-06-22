@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</head>
+<body>
+ <div class="main">   
+   <div class="header">
+     <div class="navbar">
+        <ul class="navmenu">
+            <li><a href="" class="navlist">Home</a></li>
+            <li><a href="#about" class="navlist">About</a></li>
+            <li><a href="#service" class="navlist">Service</a></li>
+            <li><a href="#work" class="navlist">Work</a></li>
+            <li><a href="#form" class="navlist">Contact</a></li>
+        </ul>
+
+     </div>
+   </div>
+<!-- nabar end -->
+
+
+ <div class="firstimg">
+  <img src="img/athul copy.jpg" alt="">
+  <div class="introname"></div>
+ </div>
+
+ <br id="about" >
+ <!-- about me starts -->
+
+   <div class="aboutme" >
+      <div class="about1">
+        <div class="abtimg">
+           <img src="img/me.JPG" alt="">
+         </div>
+        <div class="abtdetails">
+            Name: ATHUL T<br>
+            Profile: full stack developer <br>
+            Email: athult1996@gmail.com <br>
+            Phone: 9746386235<br>
+        </div>
+        <div class="skill">
+         <label for="">HTML</label>
+            <div class="progress">
+               
+               <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+            </div> 
+            <label for="">CSS</label>
+            <div class="progress">
+               <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+            </div> 
+            <label for="">JavaScript</label>
+            <div class="progress">
+               <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">60%</div>
+            </div> 
+            <label for="">WordPress</label>
+            <div class="progress">
+               <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">80%</div>
+         </div>
+      </div>
+
+      </div>
+      
+      
+
+      <div class="about2">
+         <h2>About Me</h2>
+         <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla porttitor accumsan tincidunt.</p>
+
+      </div>
+   </div>
+
+   <!-- about end -->
+
+<!-- service starts -->
+ <div class=" service" id="service">
+   <h2> SERVICES</h2>
+   <div class="fline">
+      <div id="serv1">
+         <h4>Web Design</h4>
+         <img src="img/wd.png" alt="">
+      </div>
+      <div id="serv2">
+         <h4>Web Development</h4>
+         <img src="img/wdpt.png" alt="">
+      </div>
+      <div id="serv3">
+         <h4>Grphic Design</h4>
+         <img src="img/gd.png" alt="">
+      </div>
+   </div>
+   <div class="sline">
+      <div class="slinetext">
+         <h4>Digital Marketing</h4>
+         <img src="img/dm.png" alt="">
+      </div>
+      <div class="slinetext">
+         <h4>WordPress</h4>
+         <img src="img/wp.png" alt="">
+      </div>
+      <div class="slinetext">
+         <h4>Shopify</h4>
+         <img src="img/shopify.png" alt="">
+      </div>
+   </div>
+ </div>
+<!-- service end -->
+
+<!-- work starts -->
+<div class=" work" id="work">
+   <H2>WORKS</H2>
+   
+   <div class="fwork">
+      <div><h2>Web Design</h2></div>
+      <div><h2>Web Development</h2></div>
+      <div><h2>Grphic Design</h2></div>
+   </div>
+   <div class="swork">
+      <div class="slinetext"><h2>Digital Marketing</h2></div>
+      <div class="slinetext"><h2>WordPress</h2></div>
+      <div class="slinetext"><h2>Shopify</h2></div>
+   </div>
+ </div>
+ <!-- work end -->
+
+  <!-- form starts -->
+  <div class="form" id="form">
+   <div class="input-box">
+      <form action="https://script.google.com/macros/s/AKfycbzayJYpdg-ZFEKLr8S5mCZXu2_6GsmhSYKi4vEGaXEjfwVTaRNyN7t56lNxdZ2rG6Ca/exec" method="post" onsubmit="return validateSubmission()">
+          <input type="text" id="fname" placeholder="Enter your first name"  name="fname" value="" onkeyup="validatename()">
+          <p id="name-warning"></p>
+      
+         
+          <input type="text" id="lname" name="lname " placeholder="Enter your last name" onkeyup="validateLastName()">
+          <p id="lname-warning"></p>
+      
+          
+          <input type="text" id="mnum" name="mnum" value="" placeholder="Enter your mobile number" onblur="validateMobNum()">
+          <p id="mnum-warning"></p>
+      
+          
+          <input type="email" id="email" name="email" value="" placeholder="Enter your email" onblur="validateEmail()">
+          <p id="email-warning"></p>
+          <button type="submit" class="btn">Submit</button>
+      
+      </form>
+   </div>
+    <div class="getin">
+        <h2>Get in Touch</h2>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem expedita aperiam aliquid at. Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis mollitia inventore?
+         </p>
+    </div>
+ </div>
+
+
+   <!-- form ends -->
+
+
+
+   
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   </div>
+<script src="script.js"></script>
+</body>
+</html>

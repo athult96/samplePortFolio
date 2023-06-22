@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.main{
+  background-color: #ececec;
+}
+.header{
+    position: fixed;
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    
+}
+.navbar .navmenu{
+ 
+    margin-left: 1000px;
+      
+}
+.navmenu {
+    list-style: none;
+    display: flex;
+   
+}
+.navlist{
+    text-decoration: none;
+    margin-left: 20px;
+    color: aliceblue;
+    margin-top: -100px;
+    font-size: 20px;
+    
+}
+.navlist:hover{
+  background-color: rgb(144, 140, 140);
+}
+.navmenu li{
+    margin-top: 20px;
+}
+
+/* header end */
+
+.firstimg img{
+  width: 100%;
+}
+.firstimg{
+  text-align: center;
+  color: white;
+}
+
+ 
+/* about me starts */
+
+.aboutme{
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  background-color:#fff;
+  border-radius: 25px;
+  margin-top: 100px;
+  margin-left: 10%;
+  height: 600px;
+}
+.about1{
+  width: 50%;
+  
+  display: flex;
+}
+.abtimg img{
+  width: 150px;
+  height: 150px;
+  margin-left: 50px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.abtdetails{
+  
+  width: 50%;
+  margin-left: 50px;
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 30px;
+}
+.skill{
+  margin-left:-500px ;
+  margin-top: 200px;
+  
+}
+.progress{
+  width: 350px;
+  margin-top: 10px;
+  
+  
+}
+
+.about2{
+  width: 50%;
+  height: 300px;
+  
+  margin-top: 20px;
+}
+label{
+  margin-top: 10px;
+}
+/* about end */
+
+/* service starts */
+.service{
+  width: 1200px;
+  margin-left: 150px;
+  margin-top: 100px;
+  
+  
+  
+}
+.fline{
+  display: flex;
+  background-color:#fff;
+  height: 300px;
+  margin-top: 50px;
+  border-radius: 25px;
+}
+.fline img, h4{
+  margin-left: 160px; 
+  padding-top: 30px;
+}
+
+.sline{
+  display: flex;
+  border-radius: 25px;
+  background-color:#fff;
+  height: 300px;
+}
+.sline img, h4{
+  margin-left: 160px; 
+  padding-top: 30px;
+}
+/* service end */
+
+/* work starts */
+.work{
+  width: 80%;
+  margin-left: 150px;
+  margin-top: 100px;
+  
+}
+.fwork{
+  display: flex;
+  justify-content: space-between;
+  background-color:#fff;
+  height: 200px;
+  margin-top: 60px;
+}
+.fline img{
+  width: 150px;
+  height: 150px;
+}
+.swork{
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+  background-color:#fff;
+}
+.sline img{
+  width: 150px;
+  height: 150px;
+}
+
+
+/* form starts */
+
+.form{
+  display: flex;
+  background-color:#fff;
+  justify-content:center;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 50px;
+  padding: 50px;
+  border-radius: 10px;
+}
+.input-box{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+  margin-top: 50px;
+  border-radius: 10px;
+ 
+  
+}
+.getin{
+ 
+  width: 50%;
+  justify-content: center;
+  margin-top: 50px;
+
+}
+ input{
+  width: 400px;
+  height: 50px;
+  border-color: rgb(236, 240, 243);
+  border-radius: 10px;
+  gap: 10px;
+} 
+.btn{
+  width: 120px;
+  height: 40px;
+  background-color: rgb(239, 239, 66);
+  color: rgb(27, 28, 28);
+  border-radius: 5px;
+}
+
+/* form ends */
+
+
+
+
+
+
